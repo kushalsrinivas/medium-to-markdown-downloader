@@ -25,7 +25,6 @@ export default function Home() {
     const blob = new Blob([md], { type: "text/markdown;charset=utf-8" });
 
     saveAs(blob, "example.md");
-    setMD(null);
   };
   return (
     <div className="flex flex-col items-center justify-center h-screen w-full ">
